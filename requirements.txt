@@ -1,0 +1,27 @@
+# Dependencias del proyecto T.E.I (Técnicas de Inteligencia Artificial)
+# Generado para Python 3.14
+
+# Computación numérica y manipulación de datos
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.0
+python-calamine==0.9.0
+
+# Visualización científica
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Inteligencia artificial, grafos y aprendizaje automático
+networkx==3.7
+scikit-learn==1.9.1
+MiniSom==2.3.6
+pgmpy==1.1.2
+
+# Minería web y recolección automatizada
+requests==2.34.2
+beautifulsoup4==4.15.0
+
+# Entorno de ejecución de cuadernos interactivos
+ipykernel==7.4.0
+jupyterlab==4.6.5
+nbconvert==7.17.2
