@@ -1,0 +1,15 @@
+Estado,Humedad,Viento,Juego
+Soleado,Alta,Leve,No
+Soleado,Alta,Fuerte,No
+Nublado,Alta,Leve,Si
+Lluvia,Alta,Leve,Si
+Lluvia,Normal,Leve,Si
+Lluvia,Normal,Fuerte,No
+Nublado,Normal,Fuerte,Si
+Soleado,Alta,Leve,No
+Soleado,Normal,Leve,Si
+Lluvia,Normal,Leve,Si
+Soleado,Normal,Fuerte,Si
+Nublado,Alta,Fuerte,Si
+Nublado,Normal,Leve,Si
+Lluvia,Alta,Fuerte,Si
