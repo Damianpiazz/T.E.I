@@ -1,0 +1,85 @@
+[Diagram]
+Title=Parcial Damian Piazza
+Database=C:\Users\Alumnos\Desktop\AdultosyJovenesDatosTrab.xls
+
+[Dataset]
+MLClassGenerator=TMLGenDataset
+successors=1
+succ_1=View dataset 1
+
+[View dataset 1]
+MLClassGenerator=TMLGenCompViewData
+successors=1
+succ_1=Define status 1
+
+[Define status 1]
+MLClassGenerator=TMLGenFSDefStatus
+target_count=1
+target_1=Donde trabaja
+input_count=5
+input_1=Nivel de Education
+input_2=Estado Civil
+input_3=Sexo
+input_4=Raza
+input_5=Hs de Trab por Semana 
+illus_count=0
+successors=1
+succ_1=Kohonen-SOM 1
+
+[Kohonen-SOM 1]
+MLClassGenerator=TGenClusSOM
+rnd_generator=1
+show_anova=0
+col_count=2
+row_count=2
+normalization=1
+learning_rate=0,05
+successors=1
+succ_1=Define status 2
+
+[Define status 2]
+MLClassGenerator=TMLGenFSDefStatus
+target_count=1
+target_1=Cluster_SOM_1
+input_count=5
+input_1=Nivel de Education
+input_2=Estado Civil
+input_3=Sexo
+input_4=Raza
+input_5=Hs de Trab por Semana 
+illus_count=0
+successors=1
+succ_1=Supervised Learning 1 (C4.5)
+
+[Supervised Learning 1 (C4.5)]
+MLClassGenerator=TMLGCompOneInstance
+embedded_spv=1
+embedded_section=Supervised Learning 1 (C4.5)--C4.5
+successors=1
+succ_1=Define status 3
+
+[Supervised Learning 1 (C4.5)--C4.5]
+MLClassGenerator=TMLGCompSpvTreeC45
+min_size_leaf=5
+p_level=0,25
+
+[Define status 3]
+MLClassGenerator=TMLGenFSDefStatus
+target_count=1
+target_1=pred_SpvInstance_1
+input_count=5
+input_1=Nivel de Education
+input_2=Estado Civil
+input_3=Sexo
+input_4=Raza
+input_5=Hs de Trab por Semana 
+illus_count=0
+successors=1
+succ_1=Lift curve 1
+
+[Lift curve 1]
+MLClassGenerator=TMLGenSpvScoringLIFT
+positive=c_som_1_1
+used_examples=0
+successors=0
+
