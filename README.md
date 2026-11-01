@@ -1,6 +1,6 @@
-# Técnicas de Inteligencia Artificial (T.E.I.)
+# Tecnologías de la Explotación de la Información (T.E.I.)
 
-Implementación computacional y metodológica de modelos de Inteligencia Artificial, Aprendizaje Automático y Minería de Datos mediante notebooks de Jupyter. Cada notebook desarrolla la formulación matemática rigurosa, el diseño algorítmico de la resolución, la verificación numérica y computacional mediante Python, y la representación gráfica de las métricas de evaluación, estructuras jerárquicas, topologías de red y reglas de comportamiento descubiertas.
+Implementación computacional y metodológica de modelos de Explotación de la Información, Minería de Datos, Aprendizaje Automático y Descubrimiento de Conocimiento (KDD) mediante notebooks de Jupyter. Cada notebook desarrolla la formulación matemática rigurosa, el diseño algorítmico de la resolución, la verificación numérica y computacional mediante Python, y la representación gráfica de las métricas de evaluación, estructuras jerárquicas, topologías de red y reglas de comportamiento descubiertas.
 
 ## Contenido por notebook
 
@@ -61,7 +61,7 @@ El manifiesto fija las versiones con las que se verificó la ejecución completa
 
 | Grupo | Paquetes |
 | :--- | :--- |
-| Bibliotecas de computación científica y aprendizaje automático | `numpy 2.5.4`, `scipy 1.18.1`, `pandas 3.1.0`, `scikit-learn 1.9.1`, `minisom 2.3.6`, `pgmpy 1.1.2`, `networkx 3.7`, `python-calamine 0.9.0` |
+| Bibliotecas de computación científica, aprendizaje automático y minería de datos | `numpy 2.5.4`, `scipy 1.18.1`, `pandas 3.1.0`, `scikit-learn 1.9.1`, `minisom 2.3.6`, `pgmpy 1.1.2`, `networkx 3.7`, `python-calamine 0.9.0` |
 | Minería web y recolección automatizada | `requests 2.34.2`, `beautifulsoup4 4.15.0` |
 | Bibliotecas de visualización | `matplotlib 3.11.2`, `seaborn 0.13.2` |
 | Ejecución de notebooks | `ipykernel 7.4.0`, `jupyterlab 4.6.5`, `nbconvert 7.17.2` |

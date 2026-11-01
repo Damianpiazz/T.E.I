@@ -1,4 +1,4 @@
-# Dependencias del proyecto T.E.I (Técnicas de Inteligencia Artificial)
+# Dependencias del proyecto T.E.I (Tecnologías de la Explotación de la Información)
 # Generado para Python 3.14
 
 # Computación numérica y manipulación de datos
@@ -11,7 +11,7 @@ python-calamine==0.9.0
 matplotlib==3.11.2
 seaborn==0.13.2
 
-# Inteligencia artificial, grafos y aprendizaje automático
+# Modelos de explotación de información, grafos y aprendizaje automático
 networkx==3.7
 scikit-learn==1.9.1
 MiniSom==2.3.6
